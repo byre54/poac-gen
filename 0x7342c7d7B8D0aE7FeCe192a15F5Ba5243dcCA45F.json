@@ -1,0 +1,9 @@
+[{
+    "cid" : "bafybeicvomltp34ktzw4erpqrchesl4rczte4lxtia33juv5ihgdee6wdu",
+    "award_title" : "Best Friend of JohnDoe Year 2021",
+    "owner" : "0x7342c7d7B8D0aE7FeCe192a15F5Ba5243dcCA45F",
+    "fields" : [
+        {"fid" : "name", "label" : "Name", "type" : "text"},
+        {"fid" : "epithet", "label" : "Epithet", "type" : "text"}
+    ]
+}]
