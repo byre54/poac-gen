@@ -49,6 +49,26 @@
 </template>
 
 <script>
+import axios from "axios";
+
+const options = {
+  method: 'POST',
+  url: 'https://api.nftport.xyz/v0/mints/easy/urls',
+  headers: {'Content-Type': 'application/json', Authorization: ''},
+  data: {
+    chain: 'polygon',
+    name: 'Type your NFT name here',
+    description: 'Type your NFT description here',
+    file_url: 'Add your file URL here',
+    mint_to_address: 'Add your wallet address here'
+  }
+};
+
+axios.request(options).then(function (response) {
+  console.log(response.data);
+}).catch(function (error) {
+  console.error(error);
+});
 const people = [
   {
     name: 'Jane Cooper',
